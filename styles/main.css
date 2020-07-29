@@ -1,0 +1,298 @@
+body{
+    background-color: #dbdbbd;
+    font-family : 'Inconsolata', monospace;
+    user-select: none;
+    max-zoom: 150%;
+}
+
+
+
+.cabecalho{   
+    background-color: #757575;
+}
+
+.cabecalho .menu{
+    max-width: 1200px;
+}
+
+.cabecalho .navbar-nav a{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: red;
+}
+.cabecalho .navbar-nav a:hover{
+    color: #dbdbbd;
+    transition: 700ms;
+    transform: scale(1.1);
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.cabecalho .navbar-toggler a{
+    color: red;
+}
+
+.cabecalho .navbar-toggler a:hover{
+    color: black;
+
+    transition: 700ms;
+}
+
+.minimizar{
+    background-color: #dbdbbd;
+    border-style: solid;
+}
+
+.sobre{
+    max-width: 1200px;
+}
+
+.sobre h2{
+    justify-content: center;
+    display: flex;
+    
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.sobre .mb-3{
+    max-width: 1000px; 
+    margin-top: 30px;
+
+    background-color:#dbdbbd;
+    
+    border: 0;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.sobre .card-img{
+    border-radius: 5%;
+}
+
+.sobre .card-body{
+    
+}
+
+.sobre .card-body .card-title{
+    font-size: 35px;
+    font-weight: 550;
+}
+.sobre .card-body .boasvindas{
+    font-size: 20px;
+}
+
+.sobre .card-body .card-text{
+    margin-top: -5px;
+}
+
+.projetos{
+    
+    
+}
+.projetos h2{
+    justify-content: center;
+    display: flex;
+    margin-top: 95px;
+    margin-bottom: 50px;
+}
+
+.projetos .carousel-inner .col-lg-4{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.projetos .carousel-inner .card{
+    margin-top: 20px;
+
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.projetos .carousel-inner .card-img-top{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.projetos .carousel-inner .card-body{
+    background-color: #b3b397;
+
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.projetos .slide .carousel-control-prev:hover{
+    transition: 600ms;
+    margin-left: -60px;
+}
+
+.projetos .slide .carousel-control-next:hover{
+    transition: 600ms;
+    margin-right: -60px;
+}
+
+.projetos .slide .icon{
+    background-color: black;
+}
+
+.habilidades h2{
+    justify-content: center;
+    display: flex;
+    margin-top: 95px;
+    margin-bottom: 50px;
+}
+
+.habilidades .skill{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-image: url(../imagens/programacao.jpg);
+    margin-bottom: 50px;
+
+    height: 90px;
+}
+
+.habilidades .btn{
+    
+}
+
+
+.habilidades .modal-content{
+    background-color: #bebebe;
+}
+
+.habilidades .card{
+    background-color: #bbbbbb;
+    border: 0;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.habilidades .card:hover{
+    background-color: #a0a0a0;
+    transition: 900ms;
+    transform: scale(1.1);
+}
+
+.habilidades .mobile{
+    background-color: #bbbbbb;
+    
+
+    width: 250px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.habilidades .front{
+    background-color: #bbbbbb;
+    
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.curriculo h2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.curriculo h5{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.curriculo a{
+    color: inherit;
+}
+.curriculo .btn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    border-color: #dbdbbd;
+}
+
+.curriculo .btn:hover{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    border-color: #dbdbbd;
+    background-color: #dbdbbd;
+}
+
+.curriculo p{
+    color: white;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #343a40;
+    border-radius: 5%;
+    background-size: 50px;
+}
+
+.curriculo p:hover{
+    background-color: #171d2b;
+    transition: 150ms;
+}
+
+.contato{
+    max-width: 900px;
+}
+.contato h2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.contato h5{
+    justify-content: center;
+    display: flex;
+    align-items: center;    
+}
+
+.contato .form-row{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    margin: 15px;
+}
+
+.contato .form-row .col-7{
+    margin: 10px;
+}
+
+.rodape{
+   background-color:  #757575;
+   height: 60px;
+
+   margin-top: 60px;
+   bottom: 0;
+}
+
+.rodape p{
+    justify-content: center;
+    display: flex;
+
+    padding: 5px;
+}
