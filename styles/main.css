@@ -1,25 +1,30 @@
 body{
-    background-color: #dbdbbd;
+    background-color: #383838;
     font-family : 'Inconsolata', monospace;
     user-select: none;
     max-zoom: 150%;
+
+    color: #bbbbbb;
 }
 
-
-
 .cabecalho{   
-    background-color: #757575;
+    background-color: #404040;
 }
 
 .cabecalho .menu{
     max-width: 1200px;
 }
 
+.cabecalho .menu a:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
+
 .cabecalho .navbar-nav a{
     margin-right: 10px;
     margin-left: 10px;
     font-size: 18px;
-    color: red;
+    color: #dbdbdb;
 }
 .cabecalho .navbar-nav a:hover{
     color: #dbdbbd;
@@ -30,7 +35,7 @@ body{
 }
 
 .cabecalho .navbar-toggler a{
-    color: red;
+    color: rgb(129, 129, 129);
 }
 
 .cabecalho .navbar-toggler a:hover{
@@ -54,12 +59,14 @@ body{
     
     margin-top: 30px;
     margin-bottom: 60px;
+
+    background-color: #414141;
 }
 .sobre .mb-3{
     max-width: 1000px; 
     margin-top: 30px;
 
-    background-color:#dbdbbd;
+    background-color:#404040;
     
     border: 0;
     
@@ -72,9 +79,7 @@ body{
     border-radius: 5%;
 }
 
-.sobre .card-body{
-    
-}
+
 
 .sobre .card-body .card-title{
     font-size: 35px;
@@ -88,64 +93,13 @@ body{
     margin-top: -5px;
 }
 
-.projetos{
-    
-    
-}
-.projetos h2{
-    justify-content: center;
-    display: flex;
-    margin-top: 95px;
-    margin-bottom: 50px;
-}
-
-.projetos .carousel-inner .col-lg-4{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-
-.projetos .carousel-inner .card{
-    margin-top: 20px;
-
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-}
-
-.projetos .carousel-inner .card-img-top{
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-}
-
-.projetos .carousel-inner .card-body{
-    background-color: #b3b397;
-
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-}
-
-.projetos .slide .carousel-control-prev:hover{
-    transition: 600ms;
-    margin-left: -60px;
-}
-
-.projetos .slide .carousel-control-next:hover{
-    transition: 600ms;
-    margin-right: -60px;
-}
-
-.projetos .slide .icon{
-    background-color: black;
-}
-
 .habilidades h2{
     justify-content: center;
     display: flex;
     margin-top: 95px;
     margin-bottom: 50px;
+
+    background-color: #414141;
 }
 
 .habilidades .skill{
@@ -158,17 +112,18 @@ body{
     height: 90px;
 }
 
-.habilidades .btn{
-    
+.habilidades .modal-content{
+    background-color: #424242;
 }
 
-
-.habilidades .modal-content{
-    background-color: #bebebe;
+.habilidades .modal-body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .habilidades .card{
-    background-color: #bbbbbb;
+    background-color: #505050;
     border: 0;
 
     justify-content: center;
@@ -177,23 +132,21 @@ body{
 }
 
 .habilidades .card:hover{
-    background-color: #a0a0a0;
+    background-color: #303030;
     transition: 900ms;
     transform: scale(1.1);
 }
 
-.habilidades .mobile{
-    background-color: #bbbbbb;
+.habilidades #mobile .modal-body{
+    background-color: #474747;
     
-
-    width: 250px;
     justify-content: center;
     display: flex;
     align-items: center;
 }
 
 .habilidades .front{
-    background-color: #bbbbbb;
+    background-color: #383838;
     
     width: 200px;
     justify-content: center;
@@ -208,6 +161,8 @@ body{
 
     margin-bottom: 50px;
     margin-top: 60px;
+
+    background-color: #414141;
 }
 
 .curriculo h5{
@@ -217,13 +172,16 @@ body{
 }
 .curriculo a{
     color: inherit;
+    
 }
 .curriculo .btn{
     justify-content: center;
     display: flex;
     align-items: center;
 
-    border-color: #dbdbbd;
+    border-color: #383838;
+    background-color: #383838;
+    
 }
 
 .curriculo .btn:hover{
@@ -231,8 +189,10 @@ body{
     display: flex;
     align-items: center;
 
-    border-color: #dbdbbd;
-    background-color: #dbdbbd;
+    border-color: #383838;
+    background-color: #383838;
+
+    
 }
 
 .curriculo p{
@@ -242,14 +202,14 @@ body{
     padding-bottom: 10px;
     padding-left: 7px;
     padding-right: 7px;
-    background-color: #343a40;
+    background-color: #303030;
     border-radius: 5%;
     background-size: 50px;
 }
 
 .curriculo p:hover{
-    background-color: #171d2b;
-    transition: 150ms;
+    background-color: #171717;
+    transition: 2s;
 }
 
 .contato{
@@ -261,6 +221,7 @@ body{
     align-items: center;
 
     margin-top: 50px;
+    background-color: #414141;
 }
 
 .contato h5{
@@ -282,8 +243,25 @@ body{
     margin: 10px;
 }
 
+.social .card{
+    border: 0;
+}
+
+.social .card-header{
+    background-color: #323232;
+}
+
+.social .list-group-item{
+    background-color: #474747;
+    border-color: #383838;
+}
+
+.social a{
+    color: #bbbbbb;
+}
+
 .rodape{
-   background-color:  #757575;
+   background-color:  #414141;
    height: 60px;
 
    margin-top: 60px;
@@ -296,3 +274,27 @@ body{
 
     padding: 5px;
 }
+
+@media only screen and (max-width: 400px){
+    .habilidades .modal-title{
+       position: static;
+    }
+
+    
+}
+
+@media only screen and (min-width: 575px){
+    .habilidades .modal-body{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .habilidades .modal-dialog{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}
+
